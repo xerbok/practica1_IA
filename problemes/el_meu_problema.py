@@ -1,3 +1,4 @@
+import random
 from problemes.problema import ProblemaCercaLocal
 
 class ElMeuProblema(ProblemaCercaLocal):
