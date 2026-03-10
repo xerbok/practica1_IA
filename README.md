@@ -36,8 +36,8 @@ Funcionament:
 - si no millora, es fa un reinici aleatori
 
 Criteri d’aturada:
-- l’algoritme s’atura si troba una solució de cost 0
-- o si arriba al màxim d’iteracions establert
+- L’algoritme s’atura si en la meitat d'iteracions restants no s'ha trobat una millora
+- Si arriba al màxim d’iteracions establert
 
 EXECUCIÓ
 
@@ -46,21 +46,5 @@ python executa_hill_climbing.py
 
 OBSERVACIONS
 
-- S’han utilitzat les llavors aleatòries fixades al fitxer principal:
-  np.random.seed(31)
-  random.seed(31)
-  per tal que els resultats siguin reproduïbles.
-
-- No s’han modificat els fitxers base proporcionats pel professor.
-
 - La implementació funciona correctament amb el fitxer executa_hill_climbing.py subministrat.
 
-POSSIBLES LIMITACIONS O MILLORABLES
-
-- L’algoritme implementat és hill climbing bàsic amb reinici aleatori, de manera que no garanteix trobar l’òptim global, però sí una bona solució heurística.
-- El rendiment depèn del nombre màxim d’iteracions i de l’estat inicial generat aleatòriament.
-- No s’han afegit optimitzacions extra ni estratègies avançades de cerca local.
-
-INCIDÈNCIES
-
-- No s’ha detectat cap error de funcionament en les proves realitzades.
