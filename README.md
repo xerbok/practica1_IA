@@ -5,7 +5,7 @@ Fitxers implementats:
 - algoritmes/hill_climbing.py
 
 Fitxer principal:
-- executa_hill_climbing.py
+- p1.py
 Aquest fitxer ve donat pel professor i no s’ha modificat.
 
 DESCRIPCIÓ DE LA IMPLEMENTACIÓ
@@ -42,9 +42,9 @@ Criteri d’aturada:
 EXECUCIÓ
 
 Per executar el programa:
-python executa_hill_climbing.py
+python p1.py
 
 OBSERVACIONS
 
-- La implementació funciona correctament amb el fitxer executa_hill_climbing.py subministrat.
+- La implementació funciona correctament amb el fitxer p1.py subministrat.
 
